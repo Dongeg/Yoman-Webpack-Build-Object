@@ -1,1 +1,39 @@
-项目构建流程.txt
+1.yoman
+前端注明手脚架工具，在项目的立项阶段，生成代码结构
+基于node.js
+
+yoman安装
+   前置安装   npm包   npm install -g npm
+
+   安装命令：  npm install -g yo
+
+   查看版本：  yo --version     //如果出现版本号说明安装成功
+
+2.genertaor-react-webpack 安装
+
+  安装命令：  npm install -g genertaor-react-webpack
+
+  查看版本： npm ls -g --depth=1 2>/dev/null | grep generator-  //如果出现版本号说明安装成功
+  ---------------------------------------------------------------------------------------------------
+       如果包都装好了，上面的步骤就跳过
+  ---------------------------------------------------------------------------------------------------
+
+3.新建一个github项目（不需要初始文件的）
+  
+    add gitgnore: 选项选为none，
+    add listense: MIT listense
+    点击 clone or download,点击open in desktop,选择本地路径，则项目被clone到本地。
+
+4.从gitBash进入项目目录
+
+5.生成项目代码结构及文件
+
+  命令： yo react-webpack 项目名称
+
+  填写相关选项
+
+  安装完成
+
+
+  执行 npm run serve  启动服务
+
